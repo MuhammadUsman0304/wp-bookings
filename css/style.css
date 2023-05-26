@@ -1,0 +1,56 @@
+.dd-wp-chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd-wp-chat-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.dd-wp-chat-popup {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    max-height: calc(100vh - 200px);
+    /* overflow-y: scroll; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-end; */
+    margin-right: 70px;
+    /* Add this line to make room for the icon */
+}
+
+.dd-wp-chat-button {
+    display: block;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.card-header {
+    margin: 30px 0px;
+}
+
+.card-header p {
+    text-align: center;
+    font-size: 14px;
+}
