@@ -1,11 +1,13 @@
 <?php
 /*
-Plugin Name: WP Bookings
+Plugin Name: Easy Bookings
 Plugin URI: https://github.com/MuhammadUsman0304/wp-bookings
 Description: ​A simple and fast plugin to add booking functionalities in your WordPress website, with fully customizable UI, add a floating icon at the bottom of your website, and you can add forms, links etc
 Version: 1.0
 Author: Muhammad Usman
 Author URI: https://www.linkedin.com/in/muhammad-usman-b3439218b/
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 
@@ -116,7 +118,7 @@ register_activation_hook(__FILE__, function () {
 // Add the plugin's settings page to the admin menu
 function dd_devdoes_wp_chat_add_admin_menu()
 {
-    add_options_page('WP Booking Settings', 'WP Bookings', 'manage_options', 'dd_wp_chat_settings', 'dd_devdoes_wp_chat_settings_page');
+    add_options_page('Easy Booking Settings', 'Easy Bookings', 'manage_options', 'dd_wp_chat_settings', 'dd_devdoes_wp_chat_settings_page');
 }
 add_action('admin_menu', 'dd_devdoes_wp_chat_add_admin_menu');
 
@@ -126,7 +128,7 @@ function dd_devdoes_wp_chat_settings_page()
 {
 ?>
     <div class="wrap">
-        <h1>WP Bookings Settings</h1>
+        <h1>Easy Bookings Settings</h1>
         <form method="post" enctype="multipart/form-data" action="options.php">
             <?php settings_fields('dd_wp_chat_settings_group'); ?>
             <?php do_settings_sections('dd_wp_chat_settings_group'); ?>

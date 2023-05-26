@@ -1,7 +1,7 @@
-==== WP Bookings ====
+==== Easy Bookings ====
 
 Donate link: patreon.com/DevDoes
-Tags: wp chat, wp booking, live chat, booking form, 
+Tags: Easy chat, Easy booking, live chat, booking form,booking 
 Requires at least: 3.1
 Requires PHP: 5.3
 Tested up to: 6.2
@@ -34,6 +34,6 @@ Category Wise Posts with Thumbnails works supports starts at PHP 5.3 and is test
 
 == Screenshots ==
 
-1. wp bookings shows you how you can update the settings 
-2. wp bookings how the floating icon will look alike
+1. Easy bookings shows you how you can update the settings 
+2. Easy bookings how the floating icon will look alike
 
