@@ -1,6 +1,7 @@
 <?php
 /*
 Plugin Name: WP Bookings
+Plugin URI: https://github.com/MuhammadUsman0304/wp-bookings
 Description: ​A simple and fast plugin to add booking functionalities in your WordPress website, with fully customizable UI, add a floating icon at the bottom of your website, and you can add forms, links etc
 Version: 1.0
 Author: Muhammad Usman
